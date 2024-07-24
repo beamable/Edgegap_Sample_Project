@@ -1,0 +1,25 @@
+{
+    "name": "Beamable.Microservice.EdgegapData",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Shared",
+        "Unity.Beamable",
+        "Beamable.SmallerJSON",
+        "Unity.Beamable.Server.Runtime.Common",
+        "Unity.Beamable.Server.Runtime.Mocks",
+        "Unity.Beamable.Customer.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

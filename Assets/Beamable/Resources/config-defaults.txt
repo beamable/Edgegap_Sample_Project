@@ -1,0 +1,8 @@
+{
+    "cid": "",
+    "alias": "",
+    "pid": "",
+    "platform": "",
+    "socket": "",
+    "containerPrefix": ""
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Beamable.Customer.MicroserviceClients",
+    "rootNamespace": "",
+    "references": [
+        "Beamable.Platform",
+        "Unity.Beamable",
+        "Unity.Beamable.Runtime.Common",
+        "Unity.Beamable.Server.Runtime",
+        "Unity.Beamable.Server.Runtime.Common",
+        "Unity.Beamable.Customer.Common",
+        "Beamable.Microservice.EdgegapData"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
