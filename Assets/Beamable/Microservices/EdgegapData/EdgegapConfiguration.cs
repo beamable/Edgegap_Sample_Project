@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EdgegapConfig
+public class EdgegapConfiguration
 {
     public string AppName = "unity-quick-start";
     public string Version = "quick-start";

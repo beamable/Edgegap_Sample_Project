@@ -21,7 +21,7 @@ public static class  EdgegapServerAPIInterface
             Debug.LogError("[EdgegapServerAPIInterface] Error while deleting self deployment, Environment variables are not set, make sure this is called from the deployed server");
             yield break;
         }
-        Debug.Log("Deleting");
+       
         using (var req = UnityWebRequest.Delete(deleteUrl))
         {
             req.certificateHandler = new ByPassCertificate();

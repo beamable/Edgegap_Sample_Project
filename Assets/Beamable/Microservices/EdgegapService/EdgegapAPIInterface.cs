@@ -14,14 +14,14 @@ namespace Edgegap.Tools
 {
     public static partial class EdgegapAPIInterface
     {
-        private static EdgegapConfig _settings;
+        private static EdgegapConfiguration _settings;
         private static bool _initialized = false;
 
         private static string _apiToken;//To be added to in the project config from beamable portal3
 
         public static void Initialize(string apiToken)
         {
-            _settings = new EdgegapConfig();
+            _settings = new EdgegapConfiguration();
 
             _apiToken = apiToken;
 
@@ -30,7 +30,7 @@ namespace Edgegap.Tools
 
         public static void Initialize(RealmConfig realmConfig)
         {
-            _settings = new EdgegapConfig();
+            _settings = new EdgegapConfiguration();
 
             _apiToken = realmConfig.GetSetting("edgegap", "apiToken");
             if (String.IsNullOrEmpty(_apiToken))
