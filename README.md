@@ -25,12 +25,12 @@ This sample project demonstrates an integration between [Beamable](https://beama
     
 ### **How to setup the project**
 
-  1-Clone the repository locally
-  2-Login with your beamable account in Unity: https://docs.beamable.com/docs/unity-editor-login
-  3-Choose the realm that you want to work on.
-  4-Open Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs file and put your Edgegap configurations there : the app name and app version (you can get them from Edgegap portal)
-  5-Add Edgegap API token into the realm configuration, under the namespace "edgegap" and key value "apiToken"
-  6-run the EdgeGapExampleScene, which contains EdegapExample.cs script, it will automatically deploy a server and print it is IP and external Port
+  1. Clone the repository locally
+  2. Login with your beamable account in Unity: https://docs.beamable.com/docs/unity-editor-login
+  3. Choose the realm that you want to work on.
+  4. Open Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs file and put your Edgegap configurations there : the app name and app version (you can get them from Edgegap portal)
+  5. Add Edgegap API token into the realm configuration, under the namespace "edgegap" and key value "apiToken", check here how to edit the realm configuration from Beamable portal : https://docs.venly.io/docs/configure-realm-config
+  6. Run the EdgeGapExampleScene, which contains EdegapExample.cs script, it will automatically deploy a server and print it is IP and external Port
   
 ### **What is Beamable?**
 
