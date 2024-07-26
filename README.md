@@ -10,18 +10,18 @@ This sample project demonstrates an integration between [Beamable](https://beama
 ### **Project structure**
 
  - `README.md` - This README file
- - Assets/ - Core files of the project
- - Assets/Scripts/Edgegap - Contains all the game scripts that are communicating with the C# MS
- - Assets/Beamable/Microservices/EdgegapService - Contains all the C# microservices classes that communicate with Edgegap API
+ - `Assets/` - Core files of the project
+ - `Assets/Scripts/Edgegap` - Contains all the game scripts that are communicating with the C# MS
+ - `Assets/Beamable/Microservices/EdgegapService` - Contains all the C# microservices classes that communicate with Edgegap API
 
 ### **Important files**
 
-   - Assets/Beamable/Microservices/EdgegapService/EdgegapAPIInterface.cs - This is the class that communicated and Edgegap API
-   - Assets/Beamable/Microservices/EdgegapService/EdgegapService.cs - The main C# microservice that acts as a wrapper between the microservice and Edgegap interface
-   - Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs - Configuration file for edgegap server
+   - `Assets/Beamable/Microservices/EdgegapService/EdgegapAPIInterface.cs` - This is the class that communicated and Edgegap API
+   - `Assets/Beamable/Microservices/EdgegapService/EdgegapService.cs` - The main C# microservice that acts as a wrapper between the microservice and Edgegap interface
+   - `Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs` - Configuration file for edgegap server
     
-   - Assets/Scripts/Edgegap/Edgegap Manager/EdgegapManager.cs - Acts as an interface between the game scripts and the C# microservices
-   - Assets/Scripts/Edgegap/Edgegap Server/EdgegapServerAPIInterface.cs - Used to make calls to the Edgegapi API from the deployed server itself
+   - `Assets/Scripts/Edgegap/Edgegap Manager/EdgegapManager.cs` - Acts as an interface between the game scripts and the C# microservices
+   - `Assets/Scripts/Edgegap/Edgegap Server/EdgegapServerAPIInterface.cs` - Used to make calls to the Edgegapi API from the deployed server itself
     
 ### **How to setup the project**
 
