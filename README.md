@@ -30,7 +30,9 @@ This sample project demonstrates an integration between [Beamable](https://beama
   3. Choose the realm that you want to work on.
   4. Open `Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs` file and put your Edgegap configurations there : the app name and app version (you can get them from Edgegap portal)
   5. Add Edgegap API token into the realm configuration, under the namespace "edgegap" and key value "apiToken", check here how to edit the realm configuration from Beamable portal : https://docs.venly.io/docs/configure-realm-config
-  6. Run the `EdgeGapExampleScene`, which contains `EdegapExample.cs`script, it will automatically deploy a server and print its IP and external Port
+  6. Make sure that you have docker setup and running on your PC.
+  7. Run `Edgegap Service` Microservice, Check here how to run a microservice: https://docs.beamable.com/docs/microservices-guide
+  8. Run the `EdgeGapExampleScene`, which contains `EdegapExample.cs`script, it will automatically deploy a server and print its IP and external Port
   
 ### **What is Beamable?**
 
