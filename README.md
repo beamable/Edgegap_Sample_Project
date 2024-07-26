@@ -20,8 +20,8 @@ This sample project demonstrates an integration between [Beamable](https://beama
     Assets/Beamable/Microservices/EdgegapService/EdgegapService.cs - The main C# microservice that acts as a wrapper between the microservice and Edgegap interface
     Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs - Configuration file for edgegap server
     
-    Assets/Scripts/Microservices/EdgegapService/EdgegapManager.cs - Acts as an interface between the game scripts and the C# microservices
-    
+    Assets/Scripts/Edgegap/Edgegap Manager/EdgegapManager.cs - Acts as an interface between the game scripts and the C# microservices
+    Assets/Scripts/Edgegap/Edgegap Server/EdgegapServerAPIInterface.cs - Used to make calls to the Edgegapi API from the deployed server itself
     
 ### **How to setup the project**
 
