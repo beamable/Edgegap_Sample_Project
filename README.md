@@ -25,7 +25,7 @@ This sample project demonstrates an integration between [Beamable](https://beama
     
 ### **How to setup the project**
 
-  1. Clone the repository locally
+  1. Clone the repository locally and open the scene EdgeGapExampleScene inside of Assets/Scenes/
   2. Login with your beamable account in Unity: https://docs.beamable.com/docs/unity-editor-login
   3. Choose the realm that you want to work on.
   4. Open Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs file and put your Edgegap configurations there : the app name and app version (you can get them from Edgegap portal)
