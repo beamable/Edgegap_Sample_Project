@@ -16,7 +16,7 @@ This sample project demonstrates an integration between [Beamable](https://beama
 
 ### **Important files**
 
-   - `Assets/Beamable/Microservices/EdgegapService/EdgegapAPIInterface.cs` - This is the class that communicated and Edgegap API
+   - `Assets/Beamable/Microservices/EdgegapService/EdgegapAPIInterface.cs` - This is the class that communicates with Edgegap API
    - `Assets/Beamable/Microservices/EdgegapService/EdgegapService.cs` - The main C# microservice that acts as a wrapper between the microservice and Edgegap interface
    - `Assets/Beamable/Microservices/EdgegapService/EdgegapConfiguration.cs` - Configuration file for edgegap server
     
