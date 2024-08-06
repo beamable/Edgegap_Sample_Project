@@ -6,7 +6,6 @@ This sample project demonstrates an integration between [Beamable](https://beama
 - <mark>Unity Target</mark> - PC
 - <mark>Unity Version</mark> - 2022.3.11f1
 - <mark>Beamable SDK version</mark> - 1.19.21
-- <mark>Beamable SDK version</mark> - 1.19.21
 - <mark>Docker Desktop</mark> - https://www.docker.com/products/docker-desktop/
   
 ### **Project structure**
